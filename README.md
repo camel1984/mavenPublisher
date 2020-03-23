@@ -14,6 +14,8 @@ gpg --list-keys --keyid-format short
 
 gradle uploadArchives
 
+SNAPSHOT version will not be released to central repository, that is why if we upload snapshot version, it will not show in "Staging Repositories" section.
+
 ------------------------------------------------------------
 Gradle 5.1
 ------------------------------------------------------------
