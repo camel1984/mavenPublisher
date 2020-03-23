@@ -4,7 +4,7 @@ apply plugin: 'signing'
 
 archivesBaseName = 'camel-testlib'
 group = 'com.github.camel1984'
-version = '1.0'
+version = '2.0'
 
 repositories {
     maven {

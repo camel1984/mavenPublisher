@@ -12,6 +12,6 @@ public class CamelStringLib {
      * @return string converted to upper case.
      */
     public String upperString(final String input) {
-        return "1.0-" + StringUtils.upperCase(input);
+        return "2.0-" + StringUtils.upperCase(input);
     }
 }
