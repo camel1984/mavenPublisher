@@ -4,7 +4,15 @@ gradle build can generate all the archive artifacts.
 
 gradle build
 
-gradle assemble docsDistTar
+about various tips on gpg:
+
+https://stackoverflow.com/questions/27936119/gradle-uploadarchives-task-unable-to-read-secret-key
+
+gpg --export-secret-keys -o secring.gpg
+
+gpg --list-keys --keyid-format short
+
+gradle uploadArchives
 
 ------------------------------------------------------------
 Gradle 5.1
