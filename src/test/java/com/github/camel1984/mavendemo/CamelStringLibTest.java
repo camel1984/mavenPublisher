@@ -7,6 +7,6 @@ public class CamelStringLibTest {
     @Test
     public void testUpperString() {
         CamelStringLib lib = new CamelStringLib();
-        Assert.assertEquals("1.0-SNAPSHOT-ABC", lib.upperString("abc"));
+        Assert.assertEquals("1.0-ABC", lib.upperString("abc"));
     }
 }
