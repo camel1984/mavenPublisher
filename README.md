@@ -16,6 +16,12 @@ gradle uploadArchives
 
 SNAPSHOT version will not be released to central repository, that is why if we upload snapshot version, it will not show in "Staging Repositories" section.
 
+upload public key:
+
+https://keys.openpgp.org/about/usage
+
+gpg --export bobwa1984@gmail.com | curl -T - https://keys.openpgp.org
+
 ------------------------------------------------------------
 Gradle 5.1
 ------------------------------------------------------------
